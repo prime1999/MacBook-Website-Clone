@@ -17,7 +17,7 @@ const NavBar = () => {
 	]);
 
 	return (
-		<header className="z-10 relative">
+		<header className="z-10 relative bg-black">
 			<nav className="max-lg:w-11/12 mx-lg:px-2 flex items-center justify-between w-9/12 mx-auto py-4 px-4">
 				<img src={appleImg} alt="apple-img" className="cursor-pointer" />
 
@@ -47,7 +47,7 @@ const NavBar = () => {
 				</div>
 			</nav>
 			<div className="w-full bg-zinc py-4 px-4">
-				<div className="flex items-center justify-center gap-2">
+				<div className="flex items-center justify-center gap-2 text-sm">
 					<p>Buy MacBook Pro with education savings</p>
 					<p className="flex items-center gap-2 text-blue cursor-pointer">
 						Shop
